@@ -6,10 +6,6 @@
     --nh-color-background-1: rgb(50, 43, 55);
     --nh-color-background-2: rgb(67, 58, 74);
 
-    --nh-color-font-0: rgb(249 249 250);
-    --nh-color-font-1: rgb(223 222 223);
-    --nh-color-font-2: rgb(187 185 189);
-
     --nh-color-primary-950: rgb(250 248 255);
     --nh-color-primary-900: rgb(240 233 255);
     --nh-color-primary-800: rgb(228 216 255);
@@ -58,4 +54,111 @@
     --nh-color-danger-100: rgb(111 38 52);
     --nh-color-danger-50: rgb(69 24 33);
 
+    --nh-color-font-0: var(--nh-color-neutral-950);
+    --nh-color-font-1: var(--nh-color-neutral-800);
+    --nh-color-font-2: var(--nh-color-neutral-600);
+
+    /* Buttons */
+  --nh-button-font-size-small: var(--nh-font-size-x-small);
+  --nh-button-font-size-medium: var(--nh-font-size-small);
+  --nh-button-font-size-large: var(--nh-font-size-medium);
+
+  /* Inputs */
+  --nh-input-height-small: 1.875rem; /* 30px */
+  --nh-input-height-medium: 2.5rem; /* 40px */
+  --nh-input-height-large: 3.125rem; /* 50px */
+
+  --nh-input-background-color: var(--nh-color-neutral-0);
+  --nh-input-background-color-hover: var(--nh-input-background-color);
+  --nh-input-background-color-focus: var(--nh-input-background-color);
+  --nh-input-background-color-disabled: var(--nh-color-neutral-100);
+  --nh-input-border-color: var(--nh-color-neutral-300);
+  --nh-input-border-color-hover: var(--nh-color-neutral-400);
+  --nh-input-border-color-focus: var(--nh-color-primary-500);
+  --nh-input-border-color-disabled: var(--nh-color-neutral-300);
+  --nh-input-border-width: 1px;
+  --nh-input-required-content: '*';
+  --nh-input-required-content-offset: -2px;
+  --nh-input-required-content-color: var(--nh-input-label-color);
+
+  --nh-input-border-radius-small: var(--nh-border-radius-medium);
+  --nh-input-border-radius-medium: var(--nh-border-radius-medium);
+  --nh-input-border-radius-large: var(--nh-border-radius-medium);
+
+  --nh-input-font-family: var(--nh-font-sans);
+  --nh-input-font-weight: var(--nh-font-weight-normal);
+  --nh-input-font-size-small: var(--nh-font-size-small);
+  --nh-input-font-size-medium: var(--nh-font-size-medium);
+  --nh-input-font-size-large: var(--nh-font-size-large);
+  --nh-input-letter-spacing: var(--nh-letter-spacing-normal);
+
+  --nh-input-color: var(--nh-color-neutral-700);
+  --nh-input-color-hover: var(--nh-color-neutral-700);
+  --nh-input-color-focus: var(--nh-color-neutral-700);
+  --nh-input-color-disabled: var(--nh-color-neutral-900);
+  --nh-input-icon-color: var(--nh-color-neutral-500);
+  --nh-input-icon-color-hover: var(--nh-color-neutral-600);
+  --nh-input-icon-color-focus: var(--nh-color-neutral-600);
+  --nh-input-placeholder-color: var(--nh-color-neutral-500);
+  --nh-input-placeholder-color-disabled: var(--nh-color-neutral-600);
+  --nh-input-spacing-small: var(--nh-spacing-small);
+  --nh-input-spacing-medium: var(--nh-spacing-medium);
+  --nh-input-spacing-large: var(--nh-spacing-large);
+
+  --nh-input-focus-ring-color: hsl(198.6 88.7% 48.4% / 40%);
+  --nh-input-focus-ring-offset: 0;
+
+  --nh-input-filled-background-color: var(--nh-color-neutral-100);
+  --nh-input-filled-background-color-hover: var(--nh-color-neutral-100);
+  --nh-input-filled-background-color-focus: var(--nh-color-neutral-100);
+  --nh-input-filled-background-color-disabled: var(--nh-color-neutral-100);
+  --nh-input-filled-color: var(--nh-color-neutral-800);
+  --nh-input-filled-color-hover: var(--nh-color-neutral-800);
+  --nh-input-filled-color-focus: var(--nh-color-neutral-700);
+  --nh-input-filled-color-disabled: var(--nh-color-neutral-800);
+
+  /* Labels */
+  --nh-input-label-font-size-small: var(--nh-font-size-small);
+  --nh-input-label-font-size-medium: var(--nh-font-size-medium);
+  --nh-input-label-font-size-large: var(--nh-font-size-large);
+  --nh-input-label-color: inherit;
+
+  /* Help text */
+  --nh-input-help-text-font-size-small: var(--nh-font-size-x-small);
+  --nh-input-help-text-font-size-medium: var(--nh-font-size-small);
+  --nh-input-help-text-font-size-large: var(--nh-font-size-medium);
+  --nh-input-help-text-color: var(--nh-color-neutral-500);
+
+  /* Toggles (checkboxes, radios, switches) */
+  --nh-toggle-size-small: 0.875rem; /* 14px */
+  --nh-toggle-size-medium: 1.125rem; /* 18px */
+  --nh-toggle-size-large: 1.375rem; /* 22px */
+
+  /*
+   * Overlays
+   */
+
+  --nh-overlay-background-color: hsl(0 0% 0% / 43%);
+
+  /*
+   * Panels
+   */
+
+  --nh-panel-background-color: var(--nh-color-neutral-50);
+  --nh-panel-border-color: var(--nh-color-neutral-200);
+  --nh-panel-border-width: 1px;
+
+  /*
+   * Tooltips
+   */
+
+  --nh-tooltip-border-radius: var(--nh-border-radius-medium);
+  --nh-tooltip-background-color: var(--nh-color-neutral-800);
+  --nh-tooltip-color: var(--nh-color-neutral-0);
+  --nh-tooltip-font-family: var(--nh-font-sans);
+  --nh-tooltip-font-weight: var(--nh-font-weight-normal);
+  --nh-tooltip-font-size: var(--nh-font-size-small);
+  --nh-tooltip-line-height: var(--nh-line-height-dense);
+  --nh-tooltip-padding: var(--nh-spacing-2x-small) var(--nh-spacing-x-small);
+  --nh-tooltip-arrow-size: 6px;
 }
